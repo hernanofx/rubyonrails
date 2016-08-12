@@ -1,13 +1,10 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
 
-    <div class="container">
-
-        <% @messages.each do |message| %>
-        <div class="message">
-            <p class="content"><%= message.content %></p>
-            <p class="time"><%= message.created_at %></p>
-        </div>
-        <% end %>
-        <%= link_to 'New Message', "messages/new" %>
-    </div>
+<% @messages.each do |message| %>
+<div class="message">
+    <p class="content"><%= message.content %></p>
+    <p class="time"><%= message.created_at %></p>
+</div>
+<% end %>
+<%= link_to 'New Message', "messages/new" %>
