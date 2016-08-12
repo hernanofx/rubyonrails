@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
+  root 'index' =>'welcome#index'
   get 'welcome' =>'pages#home'
   get 'messages' =>'pages#messages'
 
