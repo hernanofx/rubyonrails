@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root :to => 'home#index'
-  get '/messages' :to 'messages#index'
-  get '/messages/new' => 'messages#new'
-  post '/messages'=> 'messages#create'
+  get "/messages" => "messages#index"
+  get "/messages/new" => "messages#new"
+  post "/messages"=> "messages#create"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
