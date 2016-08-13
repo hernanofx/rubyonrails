@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root :to => 'home#index'
-  get "/pages/:page" => "pages#show"
-  end
+  get  '/pages/:page' => 'pages#show'
+  
   #get '/messages' => 'messages#index'
   #get '/messages/new' => 'messages#new'
   #post '/messages'=> 'messages#create'
