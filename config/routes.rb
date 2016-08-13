@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root :to => 'home#index'
+end
+
   get "/pages/:page" => "pages#show"
 
   #get '/messages' => 'messages#index'
