@@ -5,8 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
-
-m1 = Message.create(content: "We're at the beach so you should meet us here! I make a mean sandcastle. :)")
-
-m2 = Message.create(content: "Let's meet there!")
+Employee.create(name: 'Joe Doe', email: 'joe@doe.com', manager: false)
+Employee.create(name: 'Jane Doe', email: 'jane@doe.com', manager: true)
+Employee.create(name: 'Bob Dole', email: 'bob@dole.com', manager: false)
+Employee.create(name: 'John Doe', email: 'john@doe.com', manager: true)
